@@ -1,9 +1,9 @@
-class BillsController < OpenReadController
-  before_action :set_bill, only: %i[update destroy]
+class BillsController < ProtectedController
+  before_action :set_bill, only: %i[show update destroy]
 
   # GET /bills
   def index
-    @bills = Bill.all
+    @bills = current_user.bills.all
 
     render json: @bills
   end
