@@ -28,23 +28,24 @@ from the app and selling it to the other companies.
 --------------------------------------------------------------------------------
 User Stories:
 
-As a new user, I want to sign-up so that I can sing-in.
-As a registered user, I want to sign-in so that I can see my bills.
-As a signed-in user, I want to change password
-As a signed-in user, I want to sign out
-As a signed-in user, I want to add a new bill, type of, due date, amount.
-As a signed-in user, I want to update any bills if there is a late fee or
-extended due date
-As a signed-in user, I want to delete any bill from my list.
-As a signed-in user, I want to view all my bills.
---------------------------------------------------------Entity Relationship Diagram (ERD)
+- As a new user, I want to sign-up so that I can sing-in.
+- As a registered user, I want to sign-in so that I can see my bills.
+- As a signed-in user, I want to change password
+- As a signed-in user, I want to sign out
+- As a signed-in user, I want to add a new bill, type of, due date, amount.
+- As a signed-in user, I want to update any bills if there is a late fee or
+- extended due date
+- As a signed-in user, I want to delete any bill from my list.
+- As a signed-in user, I want to view all my bills.
+--------------------------------------------------------
+Entity Relationship Diagram (ERD)
 
-Planned ERD will be like:
-User will have so many bills.
-Bill will belongs to One User.
-when the payments table will be added ;
-Payments  has_many Bills
-Payment belongs to user
+- Planned ERD will be like:
+- User will have so many bills.
+- Bill will belongs to One User.
+- when the payments table will be added ;
+- Payments  has_many Bills
+- Payment belongs to user
 
 
 -------------------------------------------------------
